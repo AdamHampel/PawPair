@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Furry Match!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">
+            <!-- replace 'logo.png' with your logo's filename -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <h1>Find Your Furry Match!</h1>
+            <p>We help you find your perfect pet match.</p>
+            <button>Get Started</button>
+        </section>
+
+        <!-- Search Bar -->
+        <section class="search-bar">
+            <input type="text" placeholder="Search by type, breed, disposition...">
+            <button>Search</button>
+        </section>
+
+        <!-- Daily Feed (Latest Status Updates) -->
+        <section class="daily-feed">
+            <h2>Latest Updates</h2>
+            <!-- This will be populated dynamically, just a placeholder for now -->
+            <p>Stay tuned for the latest updates on available animals!</p>
+        </section>
+
+        <!-- About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <!-- Add your content for About Us here -->
+        </section>
+
+        <!-- How it Works -->
+        <section id="how-it-works">
+            <h2>How it Works</h2>
+            <!-- Add your content for How it Works here -->
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <!-- Add your content for Testimonials here -->
+        </section>
+    </main>
+
+    <!-- Footer (if you want one) -->
+
+</body>
+
+</html>
